@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <Navbar />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Start of a portfolio website.
