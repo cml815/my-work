@@ -7,11 +7,13 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App-container">
       <header className="App-header">
-      <Router>
-        <Navbar />
-      </Router>
+        <Router>
+          <Navbar />
+        </Router>
+      </header>
+      <div>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Start of a portfolio website.
@@ -27,7 +29,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </div>
     </div>
   );
 }
