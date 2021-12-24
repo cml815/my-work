@@ -1,11 +1,11 @@
-.container {
+.menu {
   width: 100%;
-  background-color: yellow;
+  height: 10%;
+  background-color: blue;
 }
 
-.menu {
-  display: flex;
-  justify-content: right;
+.li {
+  display: flex;  
 }
 
 .menu > li {
