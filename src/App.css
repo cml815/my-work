@@ -17,13 +17,14 @@
   }
 }
 
-.App-header {
+/* .App-header {
   height: 20%;
   background-color: yellow;
   display: flex; 
   justify-content: right; 
   font-size: calc(10px + 2vmin); 
 }
+*/
 
 .App-link {
   color: #61dafb;

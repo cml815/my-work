@@ -4,14 +4,14 @@ import navStyles from "./navbar.module.css"
 
 const Navbar = () => {
   return (
-    <ul className="menu">
-       <li>
+    <nav className="menu">
+       <li className="menu-item">
           <Link to="/">Home</Link>
         </li>
-        <li>
+        <li className="menu-item">
           <Link to="#">About</Link>
         </li>
-    </ul>
+    </nav>
   );
 }
 

@@ -1,11 +1,12 @@
 .menu {
   width: 100%;
   height: 10%;
+  display: flex;
   background-color: blue;
 }
 
-.li {
-  display: flex;  
+.menu-item {
+  padding: 5px; 
 }
 
 .menu > li {
