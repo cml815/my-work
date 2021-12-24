@@ -5,10 +5,7 @@
   background-color: blue;
 }
 
-.menu-item {
+.menuItem {
   padding: 5px; 
 }
 
-.menu > li {
-  padding: 5px;
-}
