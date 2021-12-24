@@ -3,12 +3,15 @@ import Link from 'react-router-dom'
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar.js'
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <Navbar />
+      <Router>
+        <Navbar />
+      </Router>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Start of a portfolio website.
